@@ -67,6 +67,9 @@ Basics: wWbBeE
 	B - Backward to the next beginning of a WORD
 	e - Forward to the next end of word
 	E - Forward to the next end of WORD
+	0 - Move to the zeroth character of the line
+	$ - Move to the last character of the line
+	^ - First non-blank character of the line
 
 Slightly less basic: fFtT
 All follow [(n)um]<verb><n(o)un> syntax
@@ -98,5 +101,6 @@ Copy/Paste
 	y - Yank. Example: yw (yank word)
 	p - paste after cursor
 	P - paste before cursor
+	v - Visual selection
 
 # vim: set syn=mkd :
